@@ -1,0 +1,48 @@
+[2024-09-04 14:17:04.833] [jointLog] [info] setting maxHashResizeThreads to 9
+[2024-09-04 14:17:04.833] [jointLog] [info] Fragment incompatibility prior below threshold.  Incompatible fragments will be ignored.
+[2024-09-04 14:17:04.833] [jointLog] [info] Usage of --validateMappings implies use of minScoreFraction. Since not explicitly specified, it is being set to 0.65
+[2024-09-04 14:17:04.833] [jointLog] [info] Setting consensusSlack to selective-alignment default of 0.35.
+[2024-09-04 14:17:04.833] [jointLog] [info] parsing read library format
+[2024-09-04 14:17:04.833] [jointLog] [info] There is 1 library.
+[2024-09-04 14:17:04.834] [jointLog] [info] Loading pufferfish index
+[2024-09-04 14:17:04.834] [jointLog] [info] Loading dense pufferfish index.
+[2024-09-04 14:17:23.252] [jointLog] [info] done
+[2024-09-04 14:17:23.288] [jointLog] [info] Index contained 102,323 targets
+[2024-09-04 14:17:23.311] [jointLog] [info] Number of decoys : 44
+[2024-09-04 14:17:23.311] [jointLog] [info] First decoy index : 102,253 
+[2024-09-04 14:17:25.162] [jointLog] [info] Automatically detected most likely library type as IU
+
+[2024-09-04 14:23:08.109] [jointLog] [info] Computed 50,038 rich equivalence classes for further processing
+[2024-09-04 14:23:08.109] [jointLog] [info] Counted 12,648,231 total reads in the equivalence classes 
+[2024-09-04 14:23:08.112] [jointLog] [info] Number of mappings discarded because of alignment score : 40,872,976
+[2024-09-04 14:23:08.112] [jointLog] [info] Number of fragments entirely discarded because of alignment score : 22,306,232
+[2024-09-04 14:23:08.112] [jointLog] [info] Number of fragments discarded because they are best-mapped to decoys : 11,595,441
+[2024-09-04 14:23:08.112] [jointLog] [info] Number of fragments discarded because they have only dovetail (discordant) mappings to valid targets : 6,429,966
+[2024-09-04 14:23:08.112] [jointLog] [info] Mapping rate = 19.3087%
+
+[2024-09-04 14:23:08.112] [jointLog] [info] finished quantifyLibrary()
+[2024-09-04 14:23:08.145] [jointLog] [info] Starting optimizer
+[2024-09-04 14:23:08.174] [jointLog] [info] Marked 0 weighted equivalence classes as degenerate
+[2024-09-04 14:23:08.177] [jointLog] [info] iteration = 0 | max rel diff. = 8931.72
+[2024-09-04 14:23:08.109] [fileLog] [info] 
+At end of round 0
+==================
+Observed 65505285 total fragments (65505285 in most recent round)
+
+[2024-09-04 14:23:08.451] [jointLog] [info] iteration = 100 | max rel diff. = 18.918
+[2024-09-04 14:23:08.722] [jointLog] [info] iteration = 200 | max rel diff. = 7.58353
+[2024-09-04 14:23:08.993] [jointLog] [info] iteration = 300 | max rel diff. = 0.321759
+[2024-09-04 14:23:09.256] [jointLog] [info] iteration = 400 | max rel diff. = 0.706867
+[2024-09-04 14:23:09.507] [jointLog] [info] iteration = 500 | max rel diff. = 0.672209
+[2024-09-04 14:23:09.760] [jointLog] [info] iteration = 600 | max rel diff. = 0.170887
+[2024-09-04 14:23:10.017] [jointLog] [info] iteration = 700 | max rel diff. = 0.0144261
+[2024-09-04 14:23:10.274] [jointLog] [info] iteration = 800 | max rel diff. = 0.054057
+[2024-09-04 14:23:10.526] [jointLog] [info] iteration = 900 | max rel diff. = 0.0273104
+[2024-09-04 14:23:10.620] [jointLog] [info] iteration = 939 | max rel diff. = 0.00203879
+[2024-09-04 14:23:10.624] [jointLog] [info] Finished optimizer
+[2024-09-04 14:23:10.624] [jointLog] [info] writing output 
+
+[2024-09-04 14:23:10.799] [jointLog] [warning] NOTE: Read Lib [[ /lustre/fs4/brc/scratch/brc_pipeline/analysis/testBRC_Shiny/WSFHLDKYPRVAXMBOCUTG/workflow_data/FQ/09_07_2022_11_HPC_RiboTag_rxn11_100_eluate_No_Cre_S25_R1_001.fastq.gz, /lustre/fs4/brc/scratch/brc_pipeline/analysis/testBRC_Shiny/WSFHLDKYPRVAXMBOCUTG/workflow_data/FQ/09_07_2022_11_HPC_RiboTag_rxn11_100_eluate_No_Cre_S25_R2_001.fastq.gz]] :
+
+Detected a *potential* strand bias > 1% in an unstranded protocol check the file: /lustre/fs4/brc/scratch/brc_pipeline/analysis/testBRC_Shiny/WSFHLDKYPRVAXMBOCUTG/workflow_data/X09_07_2022_11_HPC_RiboTag_rxn11_100_eluate_No_Cre_salmon/lib_format_counts.json for details
+

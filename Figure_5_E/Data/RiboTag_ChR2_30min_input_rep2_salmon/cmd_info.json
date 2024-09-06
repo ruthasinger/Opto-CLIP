@@ -1,0 +1,11 @@
+{
+    "salmon_version": "1.8.0",
+    "index": "/lustre/fs4/brc/scratch/brc_pipeline/reference/2023/mm10//workflow_data/mm10_salmonIndex",
+    "libType": "A",
+    "mates1": "/lustre/fs4/brc/scratch/brc_pipeline/analysis/testBRC_Shiny/GTLCZEBSRQDFJXYVPAKI/workflow_data/FQ/ChR2_30min_input_rep2_S8_R1_001.fastq.gz",
+    "mates2": "/lustre/fs4/brc/scratch/brc_pipeline/analysis/testBRC_Shiny/GTLCZEBSRQDFJXYVPAKI/workflow_data/FQ/ChR2_30min_input_rep2_S8_R2_001.fastq.gz",
+    "validateMappings": [],
+    "threads": "9",
+    "output": "/lustre/fs4/brc/scratch/brc_pipeline/analysis/testBRC_Shiny/GTLCZEBSRQDFJXYVPAKI/workflow_data/ChR2_30min_input_rep2_salmon",
+    "auxDir": "aux_info"
+}

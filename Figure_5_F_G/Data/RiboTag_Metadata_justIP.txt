@@ -1,0 +1,5 @@
+Filename	Group	Fraction
+RiboTag_Control_30min_IP_rep1_salmon	Control	IP
+RiboTag_Control_30min_IP_rep2_salmon	Control	IP
+RiboTag_ChR2_30min_IP_rep1_salmon	ChR2	IP
+RiboTag_ChR2_30min_IP_rep2_salmon	ChR2	IP
