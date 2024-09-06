@@ -1,5 +1,5 @@
 # Opto-CLIP
-This repository contains all the code associated with the preprint: 
+This repository contains all the code needed to reproduce data in the following preprint: 
 
 Singer et al BioRxiv 2024 
 
