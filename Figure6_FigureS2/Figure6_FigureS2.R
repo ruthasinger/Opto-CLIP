@@ -1,6 +1,6 @@
 library(rtracklayer)
 library(tidyverse)
-library(AnnotationDb)
+library(AnnotationDbi)
 library(org.Mm.eg.db)
 library(tximport)
 library(clusterProfiler)
